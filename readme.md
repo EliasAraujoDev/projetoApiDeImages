@@ -29,6 +29,7 @@ ou
 ```bash
 pip install Flask Flask-RestX
 ```
+Obs: recomendado uso de uma maquina virtual python pode aprender a criação de uma atraves do canal "Otávio Miranda" [Ambiente virtual Python no Windows (usando venv e VS Code)](https://youtu.be/m1TYpvIYm74?si=8bvRfkwH32dce4ix).
 
 ### 3. Configurar as Pastas de Imagens
 
