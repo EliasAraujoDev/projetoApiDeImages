@@ -12,7 +12,7 @@ Clone este repositório em sua máquina local:
 
 ```bash
 git clone https://github.com/EliasAraujoDev/projetoApiDeImages.git
-cd api
+cd projetoApiDeImages
 ```
 
 ### 2. Instalar Dependências
