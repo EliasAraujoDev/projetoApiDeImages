@@ -5,6 +5,8 @@ Este é um serviço de API RESTful construído com Flask e Flask-RESTx para recu
 ## Como Usar
 
 Para usar esta API, siga estas etapas:
+O codigo tabem tera comnetrios em pt-br mas os  termos usado na api seram em ingles co tenh diiculdade em entender recomendo o uso de uma
+pessoa ma esperiente na area ou uma I.A para esplicão do codigo 
 
 ### 1. Clonar o Repositório
 
