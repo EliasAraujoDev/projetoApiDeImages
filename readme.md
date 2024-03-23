@@ -40,7 +40,7 @@ Por exemplo:
 ```
 api/
 └── images/
-    ├── natureza/
+    ├── anime/
     │   ├── imagem1.jpg
     │   ├── imagem2.jpg
     │   └── ...
