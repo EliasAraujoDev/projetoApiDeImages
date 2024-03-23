@@ -4,7 +4,7 @@ Este é um serviço de API RESTful construído com Flask e Flask-RESTx para recu
 
 ## Como Usar
 
-Para usar esta API, siga estas etapas:
+Para utilizar esta API, siga estas etapas:
 
 ### 1. Clonar o Repositório
 
@@ -50,7 +50,7 @@ api/
     └── ...
 ```
 
-Obs: As categorias não devem ser adicionadas no código; a API pega automaticamente cada categoria adicionada na pasta images.
+Obs: As categorias são automaticamente detectadas pela API com base nas pastas dentro de `images`.
 
 ### 4. Iniciar o Servidor
 
@@ -100,5 +100,8 @@ Contribuições são bem-vindas! Se você deseja contribuir para este projeto, s
 4. Faça push para a branch (`git push origin feature/NovaFuncionalidade`).
 5. Crie um novo Pull Request.
 
+## Contato
+
+Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato através das redes sociais em [EliasDevMind](https://eliasdevmind.vercel.app/).
+
 ---
-Qual quer duvida pode entrar em contato atravez das rede sociais url'https://eliasdevmind.vercel.app/'
