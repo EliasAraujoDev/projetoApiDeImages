@@ -49,6 +49,7 @@ api/
     │   └── ...
     └── ...
 ```
+Obs: As cateorias não devem ser adcionadas no codigo ele pega cada categoria adcionada na pasta images  
 
 ### 4. Iniciar o Servidor
 
@@ -78,6 +79,8 @@ Existem duas principais funcionalidades disponíveis nesta API:
   ```bash
   curl http://localhost:5000/images/nature/image1.jpg --output image1.jpg
   ```
+  Obs: O nome de cada cateoria e o mesmo nome da pata contida em images
+  
 
 ## Estrutura do Projeto
 
