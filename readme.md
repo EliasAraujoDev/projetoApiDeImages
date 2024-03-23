@@ -1,7 +1,3 @@
-Claro, aqui está um README completo para sua API Flask, explicando como usá-la, incluindo informações sobre as pastas de imagens e como a API funciona:
-
----
-
 # API de Imagens
 
 Este é um serviço de API RESTful construído com Flask e Flask-RESTx para recuperar imagens por categoria.
@@ -15,16 +11,23 @@ Para usar esta API, siga estas etapas:
 Clone este repositório em sua máquina local:
 
 ```bash
-git clone https://github.com/seuusuario/sua-api-de-imagens.git
-cd sua-api-de-imagens
+git clone https://github.com/EliasAraujoDev/projetoApiDeImages.git
+cd api
 ```
 
 ### 2. Instalar Dependências
 
 Instale as dependências necessárias usando `pip`:
 
+recomendado:
 ```bash
 pip install -r requirements.txt
+```
+
+ou
+
+```bash
+pip install Flask Flask-RestX
 ```
 
 ### 3. Configurar as Pastas de Imagens
@@ -98,7 +101,3 @@ Contribuições são bem-vindas! Se você deseja contribuir para este projeto, s
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
-
----
-
-Este README fornece uma visão geral detalhada de como usar sua API Flask, incluindo instruções para configurar as pastas de imagens, iniciar o servidor e exemplos de solicitações. Certifique-se de personalizar as informações de acordo com as necessidades específicas da sua API.
