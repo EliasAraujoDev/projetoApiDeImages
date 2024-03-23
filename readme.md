@@ -5,8 +5,6 @@ Este é um serviço de API RESTful construído com Flask e Flask-RESTx para recu
 ## Como Usar
 
 Para usar esta API, siga estas etapas:
-O codigo tabem tera comnetrios em pt-br mas os  termos usado na api seram em ingles co tenh diiculdade em entender recomendo o uso de uma
-pessoa ma esperiente na area ou uma I.A para esplicão do codigo 
 
 ### 1. Clonar o Repositório
 
@@ -21,7 +19,7 @@ cd api
 
 Instale as dependências necessárias usando `pip`:
 
-recomendado:
+Recomendado:
 ```bash
 pip install -r requirements.txt
 ```
@@ -41,17 +39,18 @@ Por exemplo:
 ```
 api/
 └── images/
-    ├── nature/
-    │   ├── image1.jpg
-    │   ├── image2.jpg
+    ├── natureza/
+    │   ├── imagem1.jpg
+    │   ├── imagem2.jpg
     │   └── ...
-    ├── animals/
-    │   ├── image1.jpg
-    │   ├── image2.jpg
+    ├── animais/
+    │   ├── imagem1.jpg
+    │   ├── imagem2.jpg
     │   └── ...
     └── ...
 ```
-Obs: As cateorias não devem ser adcionadas no codigo ele pega cada categoria adcionada na pasta images  
+
+Obs: As categorias não devem ser adicionadas no código; a API pega automaticamente cada categoria adicionada na pasta images.
 
 ### 4. Iniciar o Servidor
 
@@ -74,15 +73,13 @@ Existem duas principais funcionalidades disponíveis nesta API:
 
 - **Listar imagens por categoria**:
   ```bash
-  curl http://localhost:5000/images/nature
+  curl http://localhost:5000/images/natureza
   ```
 
 - **Obter uma imagem específica**:
   ```bash
-  curl http://localhost:5000/images/nature/image1.jpg --output image1.jpg
+  curl http://localhost:5000/images/natureza/imagem1.jpg --output imagem1.jpg
   ```
-  Obs: O nome de cada cateoria e o mesmo nome da pata contida em images
-  
 
 ## Estrutura do Projeto
 
@@ -102,3 +99,6 @@ Contribuições são bem-vindas! Se você deseja contribuir para este projeto, s
 3. Faça commit de suas mudanças (`git commit -am 'Adiciona nova funcionalidade'`).
 4. Faça push para a branch (`git push origin feature/NovaFuncionalidade`).
 5. Crie um novo Pull Request.
+
+---
+Qual quer duvida pode entrar em contato atravez das rede sociais url'https://eliasdevmind.vercel.app/'
